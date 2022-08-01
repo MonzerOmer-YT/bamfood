@@ -9,6 +9,10 @@ body {
     background-color: #6C1E2B;
 }
 
+.prod-app{
+    background-color: white;
+}
+
 /* nav bar  */
 
 .nav {
@@ -380,16 +384,24 @@ ul {
 }
 
 /* product page  */
+.center-this-shit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .prod-cantiner{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    width: 60%;
 }
 
-.prod-about{
+.prod-about {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    font-family: cairo;
 }
 
 .prod-imgs{
@@ -405,24 +417,121 @@ ul {
     margin: 5px;
 }
 
+.main-img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .prod-desc{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.prod-desc-body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    background-color: #6C1E2B;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 100%;
+}
+
 .prod-addToCart{
     display: flex;
     flex-direction: row;
+    background-color: #6C1E2B;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.add-to-cart-btn{
+    background-color: #894B55;
+    color: white;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px;
 }
 
 .prod-review{
     display: flex;
     flex-direction: row;
+    font-family: cairo;
+    padding: 10px;
+    background-color: #6C1E2B;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.prod-prog{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: white;
 }
 
 .prod-review-prog{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.prod-one-review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prod-oneReview-box{
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+}
+
+.prod-topReview-header{
+    text-align: center;
+}
+
+.prod-review-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.prod-reviewer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.prod-topReview-header{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.prod-reviewer-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.prod-reviewer-name{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.prod-review-body{
+    margin: 5px;
 }
