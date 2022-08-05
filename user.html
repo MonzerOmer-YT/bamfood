@@ -8,6 +8,7 @@
     <title>Bam Food</title>
     <link rel="stylesheet" href="./public/style.css">
     <link rel="stylesheet" href="./public/user.css">
+    <link rel="stylesheet" href="./public/cart.css">
 </head>
 
 <body>
@@ -23,11 +24,63 @@
         </div>
         <!-- end nav -->
 
-        <!-- start banner  -->
-        <div class="header-banner">
-            <h1 class="banner-name">Cart</h1>
+        <div class="user-container">
+            <div class="user-page">
+
+                <!-- start user profile and name  -->
+                <div class="user-main-data">
+
+                    <div class="col">
+                        <img src="./public/pexels-kasumi-loffler-3535383.jpg" alt="user image" class="user-data-img">
+                    </div>
+
+                    <div class="col user-inputs">
+                        <input type="text" name="firstName" class="user-data-input">
+                        <input type="text" name="lastName" class="user-data-input">
+                    </div>
+                </div>
+                <!-- end user profile and name  -->
+
+                <!-- start user adderress  -->
+                <div class="user-address-list">
+                    <div class="cart-table-container">
+                        <!-- start cart table  -->
+                        <table class="cart-table">
+                            <thead>
+                                <tr class="cart-table-header">
+                                    <th>ID</th>
+                                    <th>Location</th>
+                                    <th>Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="cart-table-row">
+                                    <td>1</td>
+                                    <td>Bahry</td>
+                                    <td><a href="#" class="cart-btn clr-red cart-btn-noPadding">Remove</a></td>
+                                </tr>
+                                <tr class="cart-table-row">
+                                    <td>2</td>
+                                    <td>Um Dorman</td>
+                                    <td><a href="#" class="cart-btn clr-red cart-btn-noPadding">Remove</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end cart table  -->
+                    </div>
+                </div>
+                <!-- end user adderress  -->
+
+<!-- start user address inputs -->
+<div class="user-address-inputs">
+    <input type="text" name="address">
+    <input type="button" value="Save Address">
+</div>
+<!-- end user address inputs -->
+
+
+            </div>
         </div>
-        <!-- end banner  -->
 
 
         <!-- start footer  -->
