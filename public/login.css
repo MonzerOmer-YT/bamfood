@@ -1,0 +1,73 @@
+html , body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.login-page{
+    background-image: url("./BAM\ FOOD.png");
+    background-repeat: repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-itself{
+    background-color: #6C1E2B;
+    color: white;
+
+    font-family: cairo;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 10px;
+
+    width: 70vw;
+    height: 60vh;
+}
+
+input{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+input.email{
+    padding: 5px;
+}
+
+input.password{
+    padding: 5px;
+}
+
+.hi-iam-form{
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-header{
+    font-family: cairo;
+    font-size: 34px;
+    color: white;
+}
+
+.login{
+    background-color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 7px;
+    color: black;
+    width: 70px;
+    font-family: cairo;
+    margin-top: 5px;
+}
